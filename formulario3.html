@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src = "jquery-3.1.1.min.js"></script>
+    <title>Formulário de Adoção</title>
+</head>
+<body class="page bg-azul-escuro consertar-botao">
+        <form>
+                <header class="cabecalho">
+                    <h1 class="tamanho-header-formulario">FORMULÁRIO DE ADOÇÃO </h1>
+                    <div class="div-dos-dots">
+                    <div class="dot"></div><div class="dot"></div><div class="dot ativo"></div>
+                    </div>
+                </header><br>
+                <div>
+                    <p class="pra-dar-float"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario-menor"></p>
+                    <p class="textos o-menor-de-todos">Campos de preenchimento obrigatório.</p>
+                </div><br>
+                <h1 class="textos texto-sobre-voce">CONDIÇÕES</h1>
+                <h3 class="textos o-menor-de-todos mais-uma-margin">VOCÊ CONCORDA</h3><br><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                                <h4 class="textos textos-menor-menor">...QUE SUA CASA SEJA VISTORIADA PARA AVERIGUAÇÃO DAS RESPOSTAS ACIMA?</h4>
+                        </div>
+                        <input type="checkbox" name="sim" value="sim"> <span class="textos textos-ainda-menor">SIM</span> <br>
+                        <input type="checkbox" name="nao" value="nao"> <span class="textos textos-ainda-menor">NÃO</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                                <h4 class="textos textos-menor-menor">...EM NOS DEVOLVER O ANIMAL SE POR QUALQUER MOTIVO NÃO PUDER CONTINUAR COM ELE?</h4>
+                        </div>
+                        <input type="checkbox" name="sim" value="sim"> <span class="textos textos-ainda-menor">SIM</span> <br>
+                        <input type="checkbox" name="nao" value="nao"> <span class="textos textos-ainda-menor">NÃO</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                    <div class="margin-cabecalho">
+                        <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>        
+                        <h4 class="textos textos-menor-menor">...EM NÃO PASSAR O ANIMAL PARA NINGUÉM SEM ANTES NOS CONSULTAR?</h4>
+                    </div>
+                    <input type="checkbox" name="sim" value="sim"> <span class="textos textos-ainda-menor">SIM</span> <br>
+                    <input type="checkbox" name="nao" value="nao"> <span class="textos textos-ainda-menor">NÃO</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                                <h4 class="textos textos-menor-menor">...EM NOS AVISAR EM CASO DE ALTERAÇÃO DE ENDEREÇO?</h4>
+                        </div>
+                        <input type="checkbox" name="sim" value="sim"> <span class="textos textos-ainda-menor">SIM</span> <br>
+                        <input type="checkbox" name="nao" value="nao"> <span class="textos textos-ainda-menor">NÃO</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                                <h4 class="textos textos-menor-menor">...EM ASSINAR UM CONTRATO DE ADOÇÃO NO ATO DA ENTREGA?</h4>
+                        </div>
+                        <input type="checkbox" name="sim" value="sim"> <span class="textos textos-ainda-menor">SIM</span> <br>
+                        <input type="checkbox" name="nao" value="nao"> <span class="textos textos-ainda-menor">NÃO</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                                <h4 class="textos textos-menor-menor">ESCREVA NESTE ESPAÇO TUDO QUE VOCÊ JULGAR NECESSÁRIO, INCLUSIVE QUALQUER DÚVIDA</h4>
+                        </div>
+                        <input type="text" name="o-que-julga-necessario" class="campo-formulario formulario-porque" size="30" maxlength="25" maxheight="25">
+                </div><br>
+
+                <div class="centralizar qualquer-nome"><input class="botao-avancar botao-avancar3 bg-branco color-turquesa texto-tamanho" type="submit" value="AVANÇAR"></div>
+            </form>
+            <script>
+                let $avancar3 = $('.botao-avancar3');
+        
+                $avancar3.on('click', function(){
+                event.preventDefault();
+                window.open("formulario4.html", "_self");
+                })
+        </script>
+</body>
+</html>

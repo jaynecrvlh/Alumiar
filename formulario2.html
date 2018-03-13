@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src = "jquery-3.1.1.min.js"></script>
+    <title>Formulário de Adoção</title>
+</head>
+<body>
+        <form class="page bg-azul-escuro">
+                <header class="cabecalho">
+                    <h1 class="tamanho-header-formulario">FORMULÁRIO DE ADOÇÃO </h1>
+                    <div class="div-dos-dots">
+                    <div class="dot"></div><div class="dot ativo"></div><div class="dot"></div>
+                    </div>
+                </header><br>
+                <div>
+                    <p class="pra-dar-float"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario-menor"></p>
+                    <p class="textos o-menor-de-todos">Campos de preenchimento obrigatório.</p>
+                </div><br>
+                <h1 class="textos texto-sobre-voce">SOBRE A SUA CASA:</h1><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                            <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                            <h4 class="textos textos-menor-menor">SE SUA CASA É ALUGADA, O PROPRIETARIO PERMITE ANIMAIS?</h4>
+                        </div>
+                        <input type="checkbox" name="sim" value="sim"> <span class="textos textos-ainda-menor">SIM</span>  <br>
+                        <input type="checkbox" name="nao" value="nao"> <span class="textos textos-ainda-menor">NÃO</span> <br>
+                        <input type="checkbox" name="nao-sei" value="nao-sei"> <span class="textos textos-ainda-menor">NÃO SEI</span> <br>
+                        <input type="checkbox" name="minha-casa-e-propria" value="minha-casa-e-propria"> <span class="textos textos-ainda-menor">MINHA CASA É PRÓPRIA</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                                <h4 class="textos textos-menor-menor">VOCÊ MORA EM:</h4>
+                        </div>
+                        <input type="checkbox" name="casa-aberta" value="casa-aberta"> <span class="textos textos-ainda-menor">CASA ABERTA</span> <br>
+                        <input type="checkbox" name="casa-fechada" value="casa-fechada"> <span class="textos textos-ainda-menor">CASA FECHADA</span> <br>
+                        <input type="checkbox" name="apartamento-com-telas" value="apartamento-com-telas"> <span class="textos textos-ainda-menor">APARTAMENTO COM TELAS</span> <br>
+                        <input type="checkbox" name="apartamento-sem-telas" value="apartamento-sem-telas"> <span class="textos textos-ainda-menor">APARTAMENTO SEM TELAS</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                            <h4 class="textos textos-menor-menor">PARA QUALQUER TIPO DE CASA OU APARTAMENTO, RESPONDA SE VOCÊ POSSUI:</h4>
+                        </div>
+                        <input type="checkbox" name="piscina" value="piscina"> <span class="textos textos-ainda-menor">PISCINA</span> <br>
+                        <input type="checkbox" name="lareira-churrasqueira-ou-forno-de-pizza" value="lareira-churrasqueira-ou-forno-de-pizza"> <span class="textos textos-ainda-menor">LAREIRA, CHURRASQUEIRA OU FORNO DE PIZZA</span> <br>
+                        <input type="checkbox" name="respiro-do-aquecedor-do-gas" value="respiro-do-aquecedor-do-gas"> <span class="textos textos-ainda-menor">RESPIRO DO AQUECIMENTO DO GÁS</span> <br>
+                </div><br>
+                <div class="div-formulario">
+                        <div class="margin-cabecalho">
+                                <p class="pra-dar-float2"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></p>
+                                <h4 class="textos textos-menor-menor">E SOBRE OS BASCULANTES ELES SÃO DE QUE TIPO:</h4>
+                        </div>
+                        <input type="checkbox" name="simples" value="simples"> <span class="textos textos-ainda-menor">SIMPLES</span> <br>
+                        <input type="checkbox" name="dupla-ou-multipla" value="dupla-ou-multipla"> <span class="textos textos-ainda-menor">DUPLA OU MÚLTIPLA</span> <br>
+                        <input type="checkbox" name="não-tenho" value="não-tenho"> <span class="textos textos-ainda-menor">NÃO TENHO</span> <br>
+                </div><br>
+                <div class="centralizar qualquer-nome"><input class="botao-avancar botao-avancar2 bg-branco color-turquesa texto-tamanho" type="submit" value="AVANÇAR"></div>
+            </form>
+        <script>
+                let $avancar2 = $('.botao-avancar2');
+
+                $avancar2.on('click', function(){
+                event.preventDefault();
+                window.open("formulario3.html", "_self");
+                })
+        </script>
+</body>
+</html>

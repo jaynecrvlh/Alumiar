@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src = "jquery-3.1.1.min.js"></script>
+    <title>Formulário de Adoção</title>
+</head>
+<body>
+    <form class="page bg-azul-escuro">
+        <header class="cabecalho">
+            <h1 class="tamanho-header-formulario">FORMULÁRIO DE ADOÇÃO </h1>
+            <div class="div-dos-dots">
+            <div class="dot ativo"></div><div class="dot"></div><div class="dot"></div>
+            </div>
+        </header><br>
+        <div class="margin-cabecalho">
+            <p class="pra-dar-float"><img src="img/iconografia/Ativo 150.png" class="icone-do-formulario-menor"></p>
+            <p class="textos o-menor-de-todos">Campos de preenchimento obrigatório.</p>
+        </div><br>
+        <h1 class="textos texto-sobre-voce">SOBRE VOCÊ E SUA FAMÍLIA:</h1>
+        <div class="div-formulario">
+        
+            <input type="text" name="Nome" size="30" maxlength="25" placeholder="Nome" class="campo-formulario">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"><br>
+            <input type="text" name="Email" size="30" maxlength="25" placeholder="Email" class="campo-formulario">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"><br>
+            <input type="text" name="Idade" size="12" maxlength="3" placeholder="Idade" class="campo-formulario campo-formulario-medio2">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario">
+            <input type="text" name="Telefone" size="12" maxlength="9" placeholder="Telefone" class="campo-formulario campo-formulario-medio2">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario pra-dar-outro-float"><br>
+            <input type="text" name="Endereço" size="12" maxlength="15" placeholder="Endereço" class="campo-formulario campo-formulario-medio1">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario">
+            <input type="text" name="Número" size="12" maxlength="5" placeholder="Número" class="campo-formulario campo-formulario-peq1">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario pra-dar-outro-float"><br>
+            <input type="text" name="Complemento" size="12" maxlength="15" placeholder="Complemento" class="campo-formulario campo-formulario-medio2">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario">
+            <input type="text" name="Bairro" size="12" maxlength="5" placeholder="Bairro" class="campo-formulario campo-formulario-medio2">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario pra-dar-outro-float"><br>
+            <input type="text" name="Cidade" size="12" maxlength="15" placeholder="Cidade" class="campo-formulario campo-formulario-medio1">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario">
+            <input type="text" name="Estado" size="12" maxlength="5" placeholder="Estado" class="campo-formulario campo-formulario-peq1">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario pra-dar-outro-float"><br><br>
+        </div>
+
+        <div class="div-formulario">
+            <h2 class="textos textos-menor">NÚMERO DE CRIANÇAS NA CASA E IDADES: <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"></h2>
+            <input type="checkbox" name="gender" value="male" class="checkbox-size"> <span class="textos textos-ainda-menor">NÃO TENHO CRIANÇAS EM CASA</span><br>
+            <span class="textos"> TENHO </span><input type="text" name="Tenho" size="4" class="campo-formulario fomulario-num">
+            <span class="textos">CRIANÇAS DE</span> <input type="text" name="crianças" size="4" class="campo-formulario fomulario-num"> <span class="textos">ANOS.</span> <br>
+            <input type="text" name="Adultos" size="30" maxlength="25" placeholder="Número de adultos em casa" class="campo-formulario">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"><br><br>
+        </div>
+        
+        <div class="div-formulario">
+            <h2 class="textos textos-menor">PORQUE ADOTAR UM ANIMAL:</h2>
+            <input type="text" name="Adotar"  class="campo-formulario formulario-porque">
+            <img src="img/iconografia/Ativo 150.png" class="icone-do-formulario"><br>
+            <a href="formulario2.html">
+                <div class="centralizar"><input class="botao-avancar botao-avancar1 bg-branco color-turquesa texto-tamanho" type="submit" value="AVANÇAR"></div>
+            </a>
+        </div>
+    </form>
+    <script>
+        let $avancar1 = $('.botao-avancar1');
+
+        $avancar1.on('click', function(){
+            event.preventDefault();
+            window.open("formulario2.html", "_self");
+            // window.load("formulario2.html", "_self");
+        })
+
+    </script>
+</body>
+</html>

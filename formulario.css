@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 480px){
+    .page{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(44, 44, 211);
+        margin: auto;
+    }
+
+    .textos{
+        font-family: textos;
+        color: white;
+    }
+
+    .texto-sobre-voce{
+        font-size: 11pt;
+        margin-left: 20px;
+    }
+
+    .campo-formulario{
+        width: 74vw;
+        height: 2.7vh;
+        border-radius: 60px;
+        padding-left: 2vw;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .campo-formulario-medio1{
+        width: 45vw;
+    }
+
+    .campo-formulario-medio2{
+        width: 34vw;
+    }
+
+    .pra-dar-float{
+        float: left;
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    .pra-dar-float2{
+        float: left;
+        margin-right: 5px;
+    }
+
+   .o-menor-de-todos{
+       float: left;
+   }
+
+    .pra-dar-outro-float{
+        float: right;
+    }
+    .campo-formulario-peq1{
+        width: 23vw;
+    }
+
+    .textos-menor{
+        font-size: 10pt;
+    }
+
+    .textos-menor-menor{
+        font-size: 8pt;
+    }
+
+    .fomulario-num{
+        width: 5vw;
+    }
+
+    .formulario-porque{
+        height: 20vh;
+        border-radius: 10px;
+    }
+
+    .botao-avancar{
+        width: 32vw;
+        height: 4.5vh;
+        border: none;
+        border-radius: 60px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .texto-tamanho{
+        font-family: textos-dark;
+        font-size: 12pt;
+    }
+    .textos-ainda-menor{
+        font-size: 7pt;
+    }
+
+    /* .checkbox-criancas{
+        margin-left: 10px;
+    } */
+
+    .tenho-criancas p{
+        color: white;
+    }
+
+    .div-formulario{
+        margin: auto;
+    }
+
+    .centralizar{
+        text-align: center;
+    }
+
+    .dot{
+        background-color: white;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 2px;
+    }
+
+    .ativo{
+        background-color: rgb(187, 185, 185);
+    }
+
+    .tamanho-header-formulario{
+        font-size: 16pt;
+        font-family: textos-dark;
+        color: white;
+    }
+
+    .cabecalho{
+        text-align: center;
+    }
+
+    .div-dos-dots{
+        margin: auto;
+    }
+
+    .o-menor-de-todos{
+        font-size: 7pt;
+        color: white;
+    }
+
+    .icone-do-formulario-menor{
+        height: 8px;
+        width: 8px;
+    }
+
+    .icone-do-formulario{
+        height: 9px;
+        width: 9px;
+    }
+
+    .qualquer-nome{
+        margin-left: 30px;
+    }
+
+    .mais-uma-margin{
+        margin-left: 22px;
+    }
+
+    .consertar-botao{
+        margin-bottom: 35vh;
+    }
+
+    .content-enviado{
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .ir-para{
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    .ir-para-home{
+        text-decoration: underline; 
+        padding: 1px;
+    }
+
+    .logo-enviado{
+        padding: 25px;
+    }
+}

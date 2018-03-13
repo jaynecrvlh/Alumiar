@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: textos;
+    src: url(font/palanquin/palanquin-regular.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: textos-dark;
+    src: url(font/palanquin/palanquindark-regular.ttf);
+    font-style:normal;
+}
+.col-4{
+    width: 50vw;
+    height: 100%;
+}
+.alinhar-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-gif{
+    width: 160px;
+}
+.fonte-texto-grande{
+    font-family: textos;
+    font-size: 19pt;
+    line-height: 19pt;
+    color: #4c70aa;
+    text-align: center;
+    padding: 10px;
+}
